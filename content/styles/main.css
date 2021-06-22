@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+body {
+    background: #fff url("../images/main/body-background-image.png") no-repeat center top;
+}
+
+/*============================================================
+header
+============================================================*/
+/* top header
+============================================================*/
+.top-hd {
+    background-color: #000;
+}
+/* bottom header
+============================================================*/
+.btm-hd {
+    background-color: #000;
+    border-top-color: rgba(255, 255, 255, 0.2);
+}
+.btm-hd:after {
+    background: url("../images/main/header-bottom-background.png") no-repeat center bottom;
+}
+
+/*============================================================
+nav
+============================================================*/
+@media (max-width: 1199.98px) {
+    nav {
+        background-color: #000;
+    }
+}
+
+/*============================================================
+footer
+============================================================*/
+footer {
+    background-color: #f7f7f7;
+}
+/* footer sns
+============================================================*/
+.ft-sns-list li {
+    border-left-color: #dedede;
+    border-right-color: #dedede;
+}
+.ft-sns-menu-label {
+    color: #101010;
+}
+/* footer information
+============================================================*/
+.ft-info-txt {
+    color: #101010;
+}
+.ft-btn {
+    background-color: #ececec;
+    border-color: #e1e1e1;
+}
+
+/*============================================================
+common style
+============================================================*/
+main {
+    padding-top: 5.5rem;
+}
+.cmn-area {
+    padding: 6rem 0;
+}
+
+/*============================================================
+visual
+============================================================*/
+.vsl-area {
+    padding-top: 0;
+}
+.vsl-wrap {
+    padding: 2rem 5rem 6rem;
+    text-align: center;
+    background: url("../images/main/visual-background-image.png") no-repeat center top;
+    background-size: cover;
+}
+.vsl-hd {
+    padding-bottom: 2.5rem;
+    margin-bottom: 6rem;
+    background: linear-gradient(to 
+    right, #101010 50%, transparent 0%) repeat-x center bottom;
+    background-size: 20px 3px;
+}
+.visit-count-box {
+    text-align: right;
+}
+.visit-count {
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #8a93a6;
+}
+.vsl-hd-tit {
+    padding-top: 5.5rem;
+    font-size: 6.5rem;
+    line-height: 1.1;
+    background: url("../images/main/visual-title-background-image.png") no-repeat center top;
+    background-size: 100%;
+}
+.vsl-hd-txt {
+    padding-top: 0.75rem;
+    line-height: 1.5;
+}
+.vsl-figure {
+    position: relative;
+}
+.vsl-figure-qrcode {
+    display: inline-block;
+    position: absolute;
+    top: 41.5%;
+    right: 0;
+    width: 31.95%;
+}
+
+/*============================================================
+campaign movie
+============================================================*/
+.mov-wrap .cmn-hd-tit {
+    position: relative;
+    width: 15.5rem;
+    color: #fff;
+}
+.mov-wrap .cmn-hd-tit::after {
+    content: "";
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    width: 1px;
+    height: 10rem;
+    background-color: #fff;
+}
+.mov-wrap .cmn-cont {
+    padding-top: 0;
+    width: calc(100% - 15.5rem);
+}
+.mov-btn-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 4rem;
+    width: 15.5rem;
+}
+.mov-btn-slider .slick-arrow {
+    bottom: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: #5825a7;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 100%;
+}
+.mov-btn-slider .slick-prev {
+    left: 0;
+    background-image: url("../images/main/movie-slide-prev-arw.png");
+}
+.mov-btn-slider .slick-next {
+    left: 2.5rem;
+    background-image: url("../images/main/movie-slide-next-arw.png");
+}
+.mov-btn-slider .slick-disabled {
+    opacity: 0.6;
+}
+.mov-btn-item {
+    outline: none;
+}
+.mov-btn {
+    display: block;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    color: #9e82d7;
+}
+.mov-btn-idx {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mov-btn-label {
+    padding-right: 3rem;
+}
+.mov-btn.active {
+    color: #fff;
+}

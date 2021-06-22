@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* font family : Noto Sans Korean */
+@font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 300;
+    src: local("Noto Sans Thin"), local("NotoSans-Thin"),
+    url("../fonts/NotoSansKR-Thin.woff") format("wof2"),
+    url("../fonts/NotoSansKR-Thin.woff") format("woff"),
+    url("../fonts/NotoSansKR-Thin.eot"),
+    url("../fonts/NotoSansKR-Thin.eot?#iefix") format("embedded-opentype");
+}
+@font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 400;
+    src: local("Noto Sans Regular"), local("NotoSans-Regular"),
+    url("../fonts/NotoSansKR-Regular.woff") format("woff2"),
+    url("../fonts/NotoSansKR-Regular.woff") format("woff"),
+    url("../fonts/NotoSansKR-Regular.eot"),
+    url("../fonts/NotoSansKR-Regular.eot?#iefix") format("embedded-opentype");
+}
+@font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 500;
+    src: local("Noto Sans Medium"), local("NotoSans-Medium"),
+    url("../fonts/NotoSansKR-Medium.woff") format("wof2"),
+    url("../fonts/NotoSansKR-Medium.woff") format("woff"),
+    url("../fonts/NotoSansKR-Medium.eot"),
+    url("../fonts/NotoSansKR-Medium.eot?#iefix") format("embedded-opentype");
+}
+@font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 700;
+    src: local("Noto Sans Bold"), local("NotoSans-Bold"),
+    url("../fonts/NotoSansKR-Bold.woff") format("woff2"),
+    url("../fonts/NotoSansKR-Bold.woff") format("woff"),
+    url("../fonts/NotoSansKR-Bold.eot"),
+    url("../fonts/NotoSansKR-Bold.eot?#iefix") format("embedded-opentype");
+}
+
+/* font family : Gmarket Sans */
+@font-face {
+    font-family: "GmarketSansLight";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GmarketSansMedium";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+}
+@font-face {
+    font-family: "GmarketSansBold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+}

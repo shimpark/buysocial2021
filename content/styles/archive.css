@@ -1,0 +1,527 @@
+@charset "utf-8";
+
+/*============================================================
+About Attend
+============================================================*/
+.about-area__top .cmn-hd {
+    padding-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.about-type {
+    padding-bottom: 2rem;
+}
+.about-type dt {
+    width: 10.75rem
+}
+.about-type dd {
+    padding-left: 2rem;
+    width: calc(100% - 10.75rem);
+}
+.about-type-item {
+    padding-top: 1.5rem;
+}
+.about-type-tit {
+    position: relative;
+    padding-left: 0.75rem
+}
+.about-type-tit::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #7f7f7f;
+    border-radius: 100%;
+}
+.about-type-txt {
+    padding-top: 0.5rem;
+    padding-left: 0.75rem;
+}
+.about-area__btm {
+    padding: 2.5rem;
+    margin-top: 2rem;
+    background-color: #fafafa;
+}
+[class^="about-schd-tbl-item__"] {
+    padding-top: 2.5rem;
+    width: 50%;
+}
+.about-schd-tbl-tit {
+    display: block;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    width: 19rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.about-schd-tbl-tit .label,
+.about-schd-tbl-tit .ico {
+    display: inline-block;
+    vertical-align: middle;
+}
+.about-schd-tbl-tit .ico {
+    width: 5.1rem;
+}
+.about-schd-tbl-detail {
+    position: relative;
+    padding-top: 1.5rem;
+}
+[class^="about-schd-tbl-detail-item"] {
+    position: relative;
+    padding: 1.5rem 0;
+    height: 4.5rem;
+    line-height: 1.3;
+    border-bottom: 1px dashed #c8c8c8;
+    z-index: 1;
+}
+.about-schd-tbl-detail-item__line2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.about-schd-tbl-detail-item__line3 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.about-schd-tbl-item__lt [class^="about-schd-tbl-detail-item"] {
+    padding-right: 3rem;
+    text-align: right;
+}
+.about-schd-tbl-item__rt [class^="about-schd-tbl-detail-item"] {
+    padding-left: 3rem;
+}
+[class^="about-schd-tbl-detail-item"] .date {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0.85rem 0;
+    width: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+[class^="about-schd-tbl-detail-item"] .date:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1px;
+    height: 54.75%;
+    background-color: #000;
+}
+[class^="about-schd-tbl-detail-item"] .noline:after {
+    display: none;
+}
+.about-schd-tbl-item__lt [class^="about-schd-tbl-detail-item"] .date {
+    right: -1.5rem;
+}
+.about-schd-tbl-item__rt [class^="about-schd-tbl-detail-item"] .date {
+    left: -1.5rem;
+}
+.about-schd-term {
+    position: absolute;
+    padding: 0 1.5rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #eaeaea;
+    border-radius: 5rem;
+}
+.about-schd-term p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+}
+.about-schd-term .mo_show {
+    display: none;
+}
+.about-schd-tbl-item__lt .about-schd-term {
+    top: 22%;
+    left: 16.2%;
+    width: 30%;
+    height: 60%;
+}
+.about-schd-tbl-item__rt .about-schd-term {
+    top: 10%;
+    left: 42%;
+    width: 30%;
+    height: 85%;
+}
+
+/*============================================================
+Declare Campaign
+============================================================*/
+[class*="declare-area__"] {
+    text-align: center;
+}
+.declare-area__top {
+    padding-bottom: 6rem;
+    background: url("../images/archive/declare-background-image.png") no-repeat center top;
+}
+.declare-area__top .cmn-cont-txt {
+    padding-top: 0.75rem;
+}
+.declare-info-item {
+    padding-top: 2.5rem;
+}
+.declare-info-tit {
+    position: relative;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.declare-info-tit::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1.5rem;
+    height: 1px;
+    background-color: #101010;
+}
+.declare-info-item .paging-btn__ghost {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    width: 15rem;
+}
+.cmn-figure__declare {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12rem;
+}
+.declare-area__btm {
+    padding: 6rem 0;
+    background-color: #fafafa;
+}
+.declare-area__btm .cmn-cont-txt {
+    padding-top: 1.5rem;
+}
+.declare-area__btm .mov-box {
+    margin: 1.5rem 4rem 0;
+}
+
+/*============================================================
+Buy Social FairTrade
+============================================================*/
+[class*="trade-area__"] {
+    text-align: center;
+}
+.trade-area__top .cmn-cont-txt {
+    padding-top: 1rem;
+}
+.trade-kind-cont-tit-box {
+    position: relative;
+    margin-top: 6rem;
+}
+.trade-kind-cont-tit-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #101010;
+}
+.trade-kind-cont-tit {
+    display: inline-block;
+    position: relative;
+    padding: 0 0.75rem;
+    background-color: #f9fafd;
+}
+.trade-kind-cont-txt {
+    padding-top: 1rem;
+    line-height: 1.6;
+}
+.trade-kind-cont .paging-btn__primary {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 19rem;
+}
+.trade-period {
+    padding: 2rem 0;
+}
+.trade-period-list {
+    position: relative;
+    padding: 0 2rem;
+}
+.trade-period-list::before {
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 75%;
+    height: 1px;
+    background-color: #101010;
+}
+.trade-period-item {
+    position: relative;
+    padding: 2rem 0;
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #101010;
+    border-radius: 1rem;
+}
+.trade-period-tit {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.trade-period-tit::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0.75rem;
+    height: 2px;
+    background-color: #ed6a53;
+}
+.trade-period-cont {
+    padding-top: 1.5rem;
+}
+.trade-period-cont p {
+    padding-top: 0.5rem;
+}
+[class^="trade-info-item__"] {
+    padding-top: 1rem;
+}
+.trade-info-tit {
+    display: inline-block;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    border: 1px solid #101010;
+}
+.trade-info-cont {
+    padding: 2.5rem 0 1.5rem;
+    margin-top: -1rem;
+    min-height: 8rem;
+    border: 1px solid #7c7d7e;
+    border-radius: 1rem;
+}
+.trade-info-item__program .trade-info-tit {
+    width: 14rem;
+}
+.trade-info-item__price {
+    padding-bottom: 1rem;
+}
+.trade-info-item__price .trade-info-tit {
+    width: 9rem;
+}
+.trade-practice-item {
+    padding-top: 4rem;
+}
+.trade-practice-tit .idx {
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #fff;
+    background-color: #c5d3ee;
+    border-radius: 100%;
+}
+.trade-practice-txt {
+    padding-top: 1.5rem;
+}
+.trade-brand-list {
+    margin: 0 auto;
+    max-width: 33rem;
+}
+.trade-brand-item {
+    padding-top: 2rem;
+    width: 50%;
+}
+.trade-brand-item .logo {
+    display: inline-block;
+    margin-right: 0.75rem;
+    width: 3.75rem;
+}
+.trade-kfto-link-btn {
+    display: inline-block;
+    margin: 2.5rem 0 1.5rem;
+    width: 9.5rem;
+}
+.trade-platform-list {
+    padding-top: 1.5rem;
+}
+.trade-info-item__shop .trade-info-tit {
+    width: 12rem;
+}
+
+/*============================================================
+Buy Social Sovac 2020
+============================================================*/
+.sovac-area {
+    text-align: center;
+}
+.sovac-area .cmn-cont-txt + .cmn-cont-txt {
+    padding-top: 1rem;
+}
+.cmn-figure__sovac {
+    margin: 2.5rem auto 0;
+    max-width: 40rem;
+}
+
+/*============================================================
+Event Initial
+============================================================*/
+.ev-initial-wrap__top {
+    background: url("../images/archive/event-initial-background-image.png") no-repeat center top;
+    background-size: cover;
+}
+.ev-share-sns-list__initial {
+    display: none;
+}
+.ev-share-sns-list__initial .el {
+    display: block;
+}
+.ev-initial-share-list.pc {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 3rem;
+}
+.ev-initial-share-list.pc .ev-share-tglbtn__initial {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 3rem;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 100%;
+}
+.ev-share-sns-list__initial.pc {
+    padding: 3rem 0 1rem;
+    background-color: rgba(1, 167, 163, 0.6);
+    border-radius: 2rem;
+}
+.ev-share-sns-list__initial.pc .el {
+    position: relative;
+    padding: 1rem 0;
+    text-align: center;
+}
+.ev-share-sns-list__initial.pc .el + .el:before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1rem;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.ev-share-sns-list__initial.pc .el img {
+    width: 1.25rem;
+}
+.ev-initial-share-list.mo {
+    display: none;
+}
+.ev-initial-info {
+    padding: 0 5.36% 3rem 14.8%;
+}
+.ev-initial-wrap__btm {
+    padding: 2.5rem;
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 991.98px) {
+    .ev-initial-share-list.pc {
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+}
+@media (max-width: 767.98px) {
+    .ev-initial-share-list.pc {
+        display: none;
+    }
+    .ev-initial-share-list.mo {
+        display: flex;
+        padding-bottom: 2rem;
+    }
+    .ev-initial-share-list.mo .ev-share-tglbtn__initial,
+    .ev-share-sns-list__initial.mo .el {
+        display: inline-block;
+        width: 3rem;
+        background-color: #f5f5f5;
+        border: 1px solid #e3e3e3;
+        vertical-align: top;
+    }
+    .ev-initial-share-list.mo,
+    .ev-share-sns-list__initial.mo .el + .el {
+        margin-left: -1px;
+    }
+}
+
+/*============================================================
+I am Social Seller
+============================================================*/
+.iamss-area__top {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.cmn-figure__iamss {
+    margin: 4rem auto 0;
+    max-width: 30.5rem;
+}
+.iamss-chlg-sqc {
+    padding-top: 2.5rem;
+}
+.iamss-chlg-sqc dt {
+    display: inline-block;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 1.5rem;
+    border-bottom: 1px solid #b2b2b2;
+}
+.iamss-area__btm {
+    padding: 0 2.5rem 3.5rem;
+    background-color: #fafafa;
+}
+.iamss-area__btm .cmn-hd {
+    padding: 2.5rem 0 2rem;
+    text-align: center;
+}
+.whoknew-info-box {
+    padding: 2.5rem 0;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+}
+.whoknew-info-box dt {
+    width: 11rem;
+    line-height: 1.3;
+}
+.whoknew-info-box dd {
+    width: calc(100% - 11rem);
+    line-height: 1.6;
+}
+.whoknew-info-item + .whoknew-info-item {
+    padding-top: 2rem;
+}
+.whoknew-info-item .label {
+    width: 4rem;
+}
+.whoknew-info-item .txt {
+    width: calc(100% - 4rem);
+}

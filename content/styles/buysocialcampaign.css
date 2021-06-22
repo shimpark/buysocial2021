@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+/*============================================================
+About Campaign
+============================================================*/
+#aboutCampaign {
+    background: #fff url("../images/buysocialcampaign/about-background-image.png") no-repeat center top 28%;
+    background-size: 100%;
+}
+#aboutCampaign .cmn-cont {
+    padding-top: 3rem;
+}
+.about-area__tg {
+    padding: 10rem 0 4rem 19rem;
+}
+.cmn-figure__about {
+    position: absolute;
+}
+.about-area__bs .cmn-figure__about {
+    top: 0;
+    right: 0;
+    width: 19.25rem;
+}
+.about-area__tg .cmn-figure__about {
+    top: 6.5rem;
+    left: -1.5rem;
+    width: 18.75rem;
+}
+.about-banner {
+    display: block;
+    padding: 2.15rem 3rem;
+    line-height: 1.4;
+    color: #fff;
+    background: url("../images/buysocialcampaign/about-banner-background-image.png") no-repeat center right;
+    background-size: cover;
+}
+.about-banner strong {
+    display: block;
+    padding-top: 1rem;
+}
+
+/*============================================================
+Campaign History
+============================================================*/
+#campaignHistory {
+    background: #fff url("../images/buysocialcampaign/history-background-image.png") no-repeat center top 28%;
+    background-size: 100%;
+}
+#campaignHistory .cmn-cont-txt {
+    padding-top: 1.5rem;
+}
+.hst-area__top {
+    padding: 0 13.5rem 2rem 0;
+}
+.hst-area__md {
+    padding: 0 0 3rem 18rem;
+}
+.hst-area__btm {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.cmn-figure__hst {
+    position: absolute;
+}
+.hst-area__top .cmn-figure__hst {
+    top: 0;
+    right: 1.5rem;
+    width: 12.5rem;
+}
+.hst-area__md .cmn-figure__hst {
+    top: 1rem;
+    left: 0;
+    width: 16.5rem;
+}
+.hst-area__btm .cmn-hd-tit {
+    line-height: 1.6;
+}
+
+/*============================================================
+About Social Economy
+============================================================*/
+.sceco-area__top {
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+.sceco-area__top .cmn-cont-txt {
+    padding-top: 1.5rem;
+}
+.sceco-mean-list {
+    margin: 2rem 0;
+    border-top: 3px solid #101010;
+}
+.sceco-mean-item {
+    padding: 0 1rem 2rem;
+    width: 25%;
+    text-align: left;
+}
+.sceco-mean-item:nth-child(odd) {
+    background-color: #f3f6fc;
+}
+.sceco-mean-item:nth-child(even) {
+    background-color: #eceff5;
+}
+.sceco-mean-item .idx {
+    display: inline-block;
+    padding: 0.65rem 0 0.8rem;
+    margin-bottom: 0.75rem;
+    width: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+.sceco-mean-item p {
+    line-height: 1.4;
+}
+.sceco-area__btm {
+    padding: 2.5rem 3rem;
+    background-color: #fafafa;
+}
+.sceco-area__btm .cmn-cont-tit {
+    padding-bottom: 1rem;
+}
+.sceco-area__btm .cmn-cont-txt {
+    padding-top: 0.75rem;
+}
+
+/*============================================================
+About Social Economy Ent
+============================================================*/
+.scent-area__top {
+    padding-bottom: 7rem;
+}
+.scorg-kind-box {
+    padding-top: 2.5rem;
+    text-align: center;
+}
+.scorg-kind-list {
+    padding: 0 3rem;
+}
+.scorg-kind-item {
+    padding: 0.9rem;
+    width: 8rem;
+    background-color: #fff;
+    border: 1px solid #c5d3ee;
+    border-radius: 2rem;
+}
+.scorg-kind-tit {
+    padding: 3rem 0 1.75rem;
+    margin-top: -1.5rem;
+    background-color: #f9fafd;
+    border: 1px solid #c5d3ee;
+    border-bottom: 3px solid #101010;
+}
+.scorg-info-box {
+    position: relative;
+    padding: 0 3rem;
+}
+.cmn-figure__scorg {
+    position: absolute;
+    top: 1.5rem;
+    right: -1.5rem;
+    width: 14rem;
+}
+.scorg-info-item {
+    padding-top: 2rem;
+}
+.scorg-info-item dt {
+    position: relative;
+    padding-left: 1rem;
+}
+.scorg-info-item dt::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 7px;
+    height: 7px;
+    background-color: #ed6a53;
+    border-radius: 100%;
+}
+.scorg-info-item dd {
+    padding: 0.5rem 0 0 1rem;
+    line-height: 1.6;
+}
+.scent-area__md {
+    text-align: center;
+}
+.scent-area__md .cmn-hd-tit {
+    position: relative;
+}
+.scent-area__md .cmn-hd-tit::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #101010;
+}
+.scent-area__md .cmn-hd-tit strong {
+    display: inline-block;
+    position: relative;
+    padding: 0 1rem;
+    background-color: #fff;
+    z-index: 1;
+}
+.scnet-kind-tit {
+    position: relative;
+    padding: 2rem 0;
+    border-bottom: 1px solid #e0e1e3;
+    cursor: pointer;
+}
+.scnet-kind-cont li + li {
+    padding-top: 2rem;
+}
+.scnet-name {
+    display: block;
+    padding-bottom: 0.75rem;
+}
+.scnet-link-btn {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 0.75rem;
+    color: #b1b1b1;
+    border-bottom: 2px solid #b1b1b1;
+}
+.scent-area-btm {
+    text-align: center;
+}
+.scent-area-btm .cmn-cont-tit {
+    padding-bottom: 1.5rem;
+}
+.scent-area-btm .cmn-cont {
+    padding-top: 4rem;
+}
+.scent-sns-list li {
+    width: 16%;
+}
+.scent-sns-menu {
+    display: block;
+    padding: 1.25rem 0;
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 1rem;
+}
+.scent-sns-menu .label {
+    padding-top: 0.5rem;
+    line-height: 1.4;
+}

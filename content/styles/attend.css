@@ -1,0 +1,555 @@
+@charset "utf-8";
+
+/*============================================================
+Buy Social Week
+============================================================*/
+.week-area__top {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.week-area__top .cmn-cont-txt {
+    padding-top: 1.25rem;
+}
+.week-area__top .desc-box {
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    margin-top: 1.5rem;
+    background-color: #f7f7f7;
+}
+.week-area__top [class^="cmn-figure__"] {
+    position: absolute;
+    bottom: 0;
+    width: 7.5rem;
+}
+.week-area__top .cmn-figure__boy {
+    left: 3rem;
+}
+.week-area__top .cmn-figure__girl {
+    right: 3rem;
+}
+.week-area__md {
+    border: 1px solid #000;
+}
+.week-area__md .cmn-hd {
+    padding: 0.75rem 0;
+    text-align: center;
+    color: #fff;
+    background-color: #101010;
+}
+.week-area__md .cmn-cont {
+    padding: 0 3rem;
+}
+.week-schd {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.week-schd dt {
+    padding-top: 1.5rem;
+    width: 7.5rem;
+}
+.week-schd dd {
+    width: calc(100% - 7.5rem);
+}
+.week-schd-time-item + .week-schd-time-item {
+    padding-top: 2rem;
+}
+.week-schd-time-item .time {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #666;
+    background-color: #f3f6fc;
+    border-radius: 100%;
+}
+.week-schd-time-item .cont {
+    position: relative;
+    padding-top: 0.9rem;
+    padding-left: 3.5rem;
+    width: calc(100% - 4rem);  
+}
+.week-schd-time-item .cont::before {
+    content: "";
+    position: absolute;
+    top: 1.75rem;
+    left: 1rem;
+    width: 1.5rem;
+    height: 2px;
+    background-color: #101010;
+}
+.week-schd-time-item .tit {
+    line-height: 1.4;
+}
+.week-schd-time-item .txt {
+    padding-top: 0.5rem;
+    line-height: 1.6;
+}
+.week-schd-time-item .paging-btn__ghost {
+    padding: 1rem 1rem 0.75rem;
+    margin-top: 0.75rem;
+}
+[class^="week-event__"] {
+    padding: 4rem 3rem;
+    margin-top: 2rem;
+}
+[class^="week-event__"] [class^="paging-btn__"] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    line-height: 1.4;
+    border-radius: 3rem;
+}
+[class^="week-event__"] [class^="paging-btn__"] .label-arw {
+    background-position: center right;
+}
+.week-event__estorex11street {
+    text-align: center;
+    background-color: #f3f6fc;
+    border: 0.5rem solid #c5d3ee;
+}
+.week-event__estorex11street .cmn-hd {
+    padding-bottom: 0.75rem;
+}
+.week-event__estorex11street .logo {
+    display: inline-block;
+    padding-bottom: 0.75rem;
+    width: 13rem;
+}
+.week-event__estorex11street .cmn-cont-txt {
+    padding-top: 1rem;
+}
+.week-event__estorex11street .period-box {
+    padding-top: 2rem;
+}
+.week-event__estorex11street .period-box dt {
+    display: inline-block;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #101010;
+}
+.week-event__3thexhibit {
+    background: #fff url("../images/attend/week-event-3thexhibit-background-image.png") no-repeat center top;
+    border: 1px solid #101010;
+}
+.week-event__3thexhibit .cmn-hd-tit {
+    padding-bottom: 1.5rem;
+    font-size: 2.8rem;
+    line-height: 1.1;
+}
+.week-event__3thexhibit .cmn-hd-tit small {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+.week-event__3thexhibit figure {
+    width: 14rem;
+}
+.week-event__3thexhibit .info-list {
+    padding-top: 3rem;
+}
+.week-event__3thexhibit .info-item {
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+    border-left: 2px solid #101010;
+}
+.week-event__3thexhibit .info-item small {
+    display: block;
+    padding-bottom: 0.5rem;
+}
+.week-event__3thexhibit .cmn-cont {
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+/*============================================================
+Buy Social Week
+============================================================*/
+.chlg-area__md .cmn-ev-form-tit {
+    position: relative;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.chlg-area__md .cmn-ev-form-tit::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 2px;
+    background-color: #101010;
+}
+.chlg-area__md .cmn-ev-form-tit strong {
+    display: inline-block;
+    position: relative;
+    padding: 0 1rem;
+    background-color: #f7f7f7;
+}
+.chlg-area__btm {
+    padding: 4rem;
+    text-align: center;
+    letter-spacing: -2px;
+    background: url("../images/attend/challege-bottom-background-image.png") no-repeat center top;
+    background-size: cover;
+}
+.chlg-area__btm .cmn-hd-tit {
+    padding-bottom: 2rem;
+    line-height: 1.4;
+    color: #4653d2;
+}
+.chlg-author-item {
+    width: 25%;
+    text-align: center;
+}
+.chlg-author-item .date {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    color: #4e56a2;
+    border-bottom: 2px solid #4e56a2;
+}
+.chlg-author-item .thumb {
+    margin: 1.5rem auto 0;
+    width: 6.5rem;
+    border-radius: 100%;
+    box-shadow: 5px 5px 0 #b6c2db;
+} 
+.chlg-author-item .name {
+    display: block;
+    padding-top: 1rem;
+}
+.chlg-author-item .btn {
+    display: inline-block;
+    padding: 0.5rem 0;
+    margin-top: 1.5rem;
+    width: 8.5rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.chlg-author-item .btn .label {
+    padding-right: 0.75rem;
+    color: #4e56a2;
+    background: url("../images/attend/challege-author-button-arrow.png") no-repeat center right;
+    background-size: 5px;
+}
+.chlg-area__attractt {
+    padding-top: 4rem;
+}
+
+/*============================================================
+Buy Social By Me Earth Season2
+============================================================*/
+.byme-share-wrap__ss2 {
+    position: relative;
+}
+[class*="ss2"] .byme-share {
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+[class*="ss2"] .ev-share-tglbtn__byme {
+    display: block;
+    position: relative;
+    width: 3rem;
+    z-index: 2;
+}
+[class*="ss2"] .ev-share-sns-list__byme {
+    display: none;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    width: 3.15rem;
+    background-color: #1e2c4d;
+    border-radius: 30rem;
+    z-index: 1;
+}
+[class*="ss2"] [class^="byme-share-sns__"] {
+    position: relative;
+    padding: 0.25rem 0;
+    margin: 0 auto;
+    width: 1.65rem;
+    height: 2.75rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+[class*="ss2"] [class^="byme-share-sns__"] + [class^="byme-share-sns__"]::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0.9rem;
+    height: 1px;
+    background-color: #8f96a6;
+}
+[class*="ss2"] .byme-share-sns__facebook {
+    background-image: url("../images/attend/byme-share-facebook-icon-ss2.png");
+}
+[class*="ss2"] .byme-share-sns__kakaotalk {
+    background-image: url("../images/attend/byme-share-kakaotalk-icon-ss2.png");
+}
+[class*="ss2"] .byme-share-sns__band {
+    background-image: url("../images/attend/byme-share-band-icon-ss2.png");
+}
+[class*="ss2"] .byme-share-sns__email {
+    background-image: url("../images/attend/byme-share-email-icon-ss2.png");
+}
+[class*="ss2"] .byme-share-sns__url {
+    background-image: url("../images/attend/byme-share-url-icon-ss2.png");
+}
+[class*="ss2"] [class^="byme-share-sns__"] a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.byme-apply-btn {
+    background-color: #00479d;
+}
+.byme-ytb-wrap__ss2 {
+    position: relative;
+}
+[class*="ss2"] .byme-ytb-btn {
+    position: absolute;
+    bottom: 4.7rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 31rem;
+}
+
+/*============================================================
+Buy Social Enterprise
+============================================================*/
+[class*="ent-area__"] {
+    text-align: center;
+}
+.ent-area__top {
+    padding-bottom: 3rem;
+}
+.ent-list {
+    padding: 1.5rem 0 4rem;
+}
+.ent-item {
+    padding-top: 2.5rem;
+    width: 20%;
+}
+.ent-thumb {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    width: 7.5rem;
+    border-radius: 100%;
+    box-shadow: 0.5rem 0.5rem 0 #f5f5f5;
+}
+.ent-more-btn-box {
+    position: relative;
+}
+.ent-more-btn-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #b2b2b2;
+}
+.ent-more-btn {
+    display: inline-block;
+    position: relative;
+    padding: 0.75rem 0;
+    width: 7.5rem;
+    background-color: #e1e1e1;
+}
+.ent-area__btm .paging-btn__secondary {
+    width: 14rem;
+}
+.ent-area__btm .paging-btn__secondary .label-arw {
+    display: inline-block;
+}
+/* enterprise detail modal
+============================================================*/
+#modalEnt .modal-cont {
+    padding: 2rem;
+    background-color: #fff;
+}
+.ent-modal-thumb {
+    width: 50%;
+}
+.ent-modal-cont {
+    padding-left: 2rem;
+    width: 50%;
+}
+.ent-modal-cont-hd {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ent-modal-tit-desc {
+    display: inline-block;
+    position: relative;
+    margin-top: 0.5rem;
+    line-height: 1;
+}
+.ent-modal-tit-desc + .ent-modal-tit-desc {
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+.ent-modal-tit-desc + .ent-modal-tit-desc::before {
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 0.6rem;
+    background-color: #ccc;
+}
+.ent-modal-cont-item {
+    margin-top: 1.5rem;
+}
+.ent-modal-tag-item {
+    line-height: 1.4;
+}
+.ent-modal-txt-item * {
+    display: block;
+    line-height: 1.6;
+}
+.ent-modal-info-item li {
+    padding-left: 0.75rem;
+    margin-top: 0.5rem;
+}
+.ent-modal-info-item li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+
+/*============================================================
+Apply Social Enterprise
+============================================================*/
+.cmn-figure__apply {
+    position: absolute;
+    top: 10.75rem;
+    right: 0;
+    width: 19rem;
+}
+.apply-select-box {
+    padding: 1.5rem;
+    background-color: #fafafa;
+}
+.apply-select-item {
+    padding: 5px 0;
+}
+.apply-select-item:last-child {
+    margin-right: 0 !important;
+}
+.apply-select-item input[type="checkbox"],
+.apply-select-item input[type="radio"] {
+    overflow: hidden;
+    position: absolute;
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+}
+.apply-keyword-item {
+    margin-right: 3.5%;
+    width: 31%;
+}
+.apply-keyword-item:nth-child(3n) {
+    margin-right: 0;
+}
+.apply-keyword-item .form-input-txt {
+    padding-right: 3rem;
+}
+.apply-keyword-item .del-btn {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+}
+.apply-keyword-item .del-btn:before,
+.apply-keyword-item .del-btn:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #777;
+}
+.apply-keyword-item .del-btn:before {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.apply-keyword-item .del-btn:after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.apply-keyword-item .add-btn {
+    display: block;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #777;
+    border: 1px dashed #777;
+}
+.apply-select-box .industry-item {
+    width: 19%;
+}
+.apply-industry-item {
+    position: relative;
+    margin-right: 1.25%;
+    width: 19%;
+}
+.apply-industry-item:nth-child(5n) {
+    margin-right: 0;
+}
+.apply-local-item {
+    position: relative;
+    margin-right: 0.8%;
+    width: 16%;
+}
+.apply-local-item:nth-child(6n) {
+    margin-right: 0;
+}
+.apply-industry-btn .label,
+.apply-local-btn .label {
+    display: block;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    cursor: pointer;
+}
+.apply-industry-btn input:checked + .label,
+.apply-local-btn input:checked + .label {
+    color: #672cc4;
+    border-color: #672cc4;
+}
+.apply-homepage-chk + .apply-homepage-chk {
+    padding-left: 2.5rem;
+}
