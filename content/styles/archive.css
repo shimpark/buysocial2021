@@ -161,6 +161,68 @@ About Attend
     height: 85%;
 }
 
+@media screen and (max-width: 575.98px) {
+    .about-type {
+        padding-bottom: 4rem;
+    }
+    .about-type dt {
+        margin: 0 auto;
+        width: 12rem;
+    }
+    .about-type dd {
+        padding-top: 2rem;
+        padding-left: 0;
+        width: 100%;
+    }
+    .about-area__btm {
+        padding: 3rem 1.5rem;
+    }
+    [class^="about-schd-tbl-item__"] {
+        width: 100%;
+    }
+    [class^="about-schd-tbl-item__"] + [class^="about-schd-tbl-item__"] {
+        padding-top: 4rem;
+    }
+    [class^="about-schd-tbl-detail-item"] {
+        padding: 1.5rem 0 1.5rem 5.5rem !important;
+        height: auto;
+        min-height: 6rem;
+        text-align: left !important;
+    }
+    .about-schd-tbl-detail-item__blank {
+        display: none;
+    }
+    [class^="about-schd-tbl-detail-item"] .date {
+        padding: 1.25rem 0;
+        width: 4rem;
+    }
+    .about-schd-tbl-item__lt [class^="about-schd-tbl-detail-item"] .date,
+    .about-schd-tbl-item__rt [class^="about-schd-tbl-detail-item"] .date {
+        left: 0;
+        right: auto;
+    }
+    [class^="about-schd-tbl-detail-item"] .date:after {
+        display: none;
+    }
+    .about-schd-term {
+        position: relative;
+        top: auto !important;
+        left: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 1rem 0;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+    .about-schd-term p {
+        position: relative;
+        top: auto;
+        left: auto;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 /*============================================================
 Declare Campaign
 ============================================================*/
@@ -216,6 +278,26 @@ Declare Campaign
     margin: 1.5rem 4rem 0;
 }
 
+@media screen and (max-width: 575.98px) {
+    .declare-area__top {
+        padding-bottom: 15rem;
+    }
+    .declare-info-item {
+        padding-top: 4rem;
+    }
+    .declare-info-item p {
+        line-height: 1.4;
+    }
+    .declare-info-item .paging-btn__ghost {
+        padding: 1.75rem 0;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .declare-area__btm .mov-box {
+        margin: 2rem 1rem 0;
+    }
+}
+
 /*============================================================
 Buy Social FairTrade
 ============================================================*/
@@ -244,6 +326,7 @@ Buy Social FairTrade
     display: inline-block;
     position: relative;
     padding: 0 0.75rem;
+    line-height: 1.4;
     background-color: #f9fafd;
 }
 .trade-kind-cont-txt {
@@ -341,6 +424,9 @@ Buy Social FairTrade
     background-color: #c5d3ee;
     border-radius: 100%;
 }
+.trade-practice-tit strong {
+    line-height: 1.4;
+}
 .trade-practice-txt {
     padding-top: 1.5rem;
 }
@@ -369,6 +455,46 @@ Buy Social FairTrade
     width: 12rem;
 }
 
+@media screen and (max-width: 575.98px) {
+    .trade-area__btm {
+        padding-top: 2rem;
+    }
+    .trade-period-list {
+        padding: 0;
+    }
+    .trade-period-item {
+        margin: 5px 0;
+        width: 100%;
+    }
+    .trade-kind-cont .paging-btn__primary {
+        width: 100%;
+    }
+    .trade-info-tit {
+        padding: 0.75rem 0;
+        width: 100% !important;
+    }
+    .trade-info-cont  {
+        border-radius: 0.75rem;
+    }
+    .trade-practice-tit {
+        flex-direction: column;
+    }
+    .trade-practice-tit .idx {
+        margin-bottom: 0.75rem;
+        margin-right: 0;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .trade-brand-item {
+        flex-direction: column;
+    }
+    .trade-brand-item .logo {
+        margin-bottom: 0.75rem;
+        margin-right: 0;
+    }
+}
+
 /*============================================================
 Buy Social Sovac 2020
 ============================================================*/
@@ -381,6 +507,19 @@ Buy Social Sovac 2020
 .cmn-figure__sovac {
     margin: 2.5rem auto 0;
     max-width: 40rem;
+}
+.sovac-area [class^="paging-btn__"] {
+    width: 22rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .sovac-area [class^="paging-btn__"] {
+        width: 100%;
+    }
+    .sovac-area [class^="paging-btn__"] .label-arw {
+        padding-right: 0;
+        background: none;
+    }
 }
 
 /*============================================================
@@ -524,4 +663,24 @@ I am Social Seller
 }
 .whoknew-info-item .txt {
     width: calc(100% - 4rem);
+}
+.iamss-area__btm .paging-btn__secondary {
+    width: 17rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .iamss-area__btm {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .whoknew-info-box dt {
+        width: 100%;
+    }
+    .whoknew-info-box dd {
+        padding-top: 2rem;
+        width: 100%;
+    }
+    .iamss-area__btm .paging-btn__secondary {
+        width: 100%;
+    }
 }

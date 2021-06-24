@@ -52,7 +52,7 @@ header {
     margin-left: 3rem;
 }
 .nav-item__btm:nth-child(3){
-    margin-left: 2.3rem;
+    margin-left: 2.75rem;
 }
 .nav-item__btm:nth-child(4){
     margin-left: 0.95rem;
@@ -258,6 +258,11 @@ footer {
         text-align: center;
     }
 }
+@media screen and (max-width: 575.98px) {
+    footer {
+        padding: 3.5rem 0;
+    }
+}
 /* footer sns
 ============================================================*/
 .ft-sns-list li {
@@ -286,6 +291,15 @@ footer {
 @media screen and (max-width: 991.98px) {
     .ft-sns-list li {
         width: 20%;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .ft-sns-menu-ico {
+        width: 2rem;
+    }
+    .ft-sns-menu-label {
+        padding-top: 1rem;
+        font-size: 0.9rem;
     }
 }
 /* footer information
@@ -320,6 +334,12 @@ footer {
 @media screen and (max-width: 991.98px) {
     #ftCi {
         margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .ft-btn {
+        padding: 1rem 0;
+        width: 10rem;
     }
 }
 
@@ -360,6 +380,12 @@ sub page common style
     padding: 4rem 5rem;
     background-color: #fff;
 }
+
+@media screen and (max-width: 991.98px) {
+    .subpage-wrap {
+        padding: 4rem 2rem;
+    }
+}
 /* sub page header
 ============================================================*/
 .subpage-hd {
@@ -379,12 +405,31 @@ sub page common style
     background: url("../images/common/subpage-root-arw.png") no-repeat center left;
     background-size: 3px;
 }
+
+@media screen and (max-width: 575.98px) {
+    .subpage-hd {
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .subpage-root {
+        display: none;
+    }
+    .subpage-hd-tit {
+        width: 100%;
+    }
+}
 /* sub page content
 ============================================================*/
 .subpage-cont {
     position: relative;
     padding: 3rem 0 3.5rem;
     background: url("../images/common/subpage-background-line.png") repeat-x center bottom;
+}
+
+@media screen and (max-width: 575.98px) {
+    .subpage-cont {
+        padding: 4rem 0 6rem;
+    }
 }
 
 /*============================================================
@@ -419,6 +464,16 @@ sub content common style
 }
 .cmn-cont-txt {
     line-height: 1.6;
+}
+
+@media screen and (max-width: 575.98px) {
+    .cmn-hd__liner {
+        padding-bottom: 6rem;
+    }
+    .cmn-hd__liner::after {
+        top: auto;
+        bottom: 1.5rem;
+    }
 }
 /* common toggle content
 ============================================================*/
@@ -461,6 +516,19 @@ sub content common style
     background-color: #f9fafd;
     border-bottom: 1px solid #e0e1e3;
 }
+
+@media screen and (max-width: 575.98px) {
+    .cmn-tgl-tit {
+        text-align: left;
+    }
+    .cmn-tgl-tit .idx {
+        border-bottom-width: 2px;
+    }
+    .cmn-tgl-tit::after {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
 /* common platform button
 ============================================================*/
 .cmn-platform-btn {
@@ -492,6 +560,24 @@ sub content common style
     line-height: 1.4;
     background: url("../images/common/pagination-button-arrow-black.png") no-repeat center right;
     background-size: 2rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .cmn-platform-btn {
+        padding: 1.5rem 2.5rem;
+        width: 100%;
+        border-radius: 5rem;
+    }
+    .cmn-platform-btn .label {
+        display: block;
+        position: relative;
+        top: auto;
+        right: auto;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        padding-top: 1rem;
+        text-align: left;
+    }
 }
 /* common event form
 ============================================================*/
@@ -577,6 +663,42 @@ sub content common style
     color: #fff;
     border-radius: 2rem;
 }
+
+@media screen and (max-width: 575.98px) {
+    .cmn-ev-form-wrap {
+        padding: 4rem 1rem;
+    }
+    .cmn-ev-form-field label {
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    .cmn-ev-form-el-box {
+        width: 100%;
+    }
+    .cmn-ev-form-el-box input {
+        width: 100% !important;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .cmn-ev-form-el-box .withbtn {
+        width: calc(100% - 8rem) !important;
+    }
+    .cmn-ev-form-terms .check-area {
+        padding-top: 1rem;
+    }
+    .cmn-ev-form-terms .check-area label {
+        padding-left: 2.5rem;
+        background-size: 2rem;
+    }
+    .cmn-ev-form-btn {
+        width: 8rem;
+        height: 4rem;
+    }
+    .cmn-ev-form-applybtn {
+        padding: 1.75rem 0 1.5rem;
+        width: 100%;
+    }
+}
 /* attractt
 ============================================================*/
 .attractt-tag-box {
@@ -592,6 +714,13 @@ sub content common style
 }
 .attractt-container {
     padding-top: 3rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .attractt-tag {
+        padding: 0.75rem 0;
+        width: 8rem;
+    }
 }
 
 /*============================================================

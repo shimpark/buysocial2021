@@ -39,6 +39,43 @@ About Campaign
     padding-top: 1rem;
 }
 
+@media screen and (max-width: 991.98px) {
+    .about-area__tg {
+        padding-left: 12rem;
+    }
+    .about-area__bs .cmn-figure__about,
+    .about-area__tg .cmn-figure__about {
+        width: 13rem;
+    }
+    .about-banner {
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .about-area__tg {
+        padding: 25rem 0 5rem;
+    }
+    .about-area__bs .cmn-figure__about {
+        top: auto;
+        bottom: -10rem;
+        right: -2rem;
+        width: 12rem;
+    }
+    .about-area__tg .cmn-figure__about {
+        left: 0;
+        transform: rotate(-15deg);
+    }
+    .about-banner {
+        padding: 2rem 1rem 15rem;
+        text-align: center;
+        background: url('../images/buysocialcampaign/about-banner-background-image-mo.png') no-repeat center bottom;
+        background-size: contain;
+    }
+    .about-banner strong {
+        padding-top: 2rem;
+    }
+}
+
 /*============================================================
 Campaign History
 ============================================================*/
@@ -74,6 +111,27 @@ Campaign History
 }
 .hst-area__btm .cmn-hd-tit {
     line-height: 1.6;
+}
+
+@media screen and (max-width: 575.98px) {
+    .hst-area__top {
+        padding-bottom: 15rem;
+        padding-right: 0;
+    }
+    .hst-area__md {
+        padding: 13rem 0 5rem;
+    }
+    .hst-area__top .cmn-figure__hst {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: 12rem;
+    }
+    .hst-area__md .cmn-figure__hst {
+        top: -4rem;
+        left: 0;
+        width: 14rem;
+    }
 }
 
 /*============================================================
@@ -121,6 +179,24 @@ About Social Economy
 }
 .sceco-area__btm .cmn-cont-txt {
     padding-top: 0.75rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .sceco-mean-list {
+        margin: 4rem 0 2rem;
+        border-top-width: 2px;
+    }
+    .sceco-mean-item {
+        width: 100%;
+    }
+    .sceco-mean-item .idx {
+        margin-bottom: 1rem;
+        width: 2.5rem;
+    }
+    .sceco-area__btm {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 /*============================================================
@@ -219,6 +295,7 @@ About Social Economy Ent
 .scnet-name {
     display: block;
     padding-bottom: 0.75rem;
+    line-height: 1.4;
 }
 .scnet-link-btn {
     display: inline-block;
@@ -250,4 +327,58 @@ About Social Economy Ent
 .scent-sns-menu .label {
     padding-top: 0.5rem;
     line-height: 1.4;
+}
+.scent-area-btm .paging-btn__primary {
+    width: 18rem;
+}
+
+@media screen and (max-width: 991.98px) {
+    .scorg-kind-item {
+        padding: 0.75rem 0;
+        width: 6.5rem;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .scent-area__top {
+        padding-bottom: 5rem;
+    }
+    .scorg-kind-list {
+        padding: 0;
+        justify-content: center;
+    }
+    .scorg-kind-item {
+        margin: 2.5px 0;
+        width: 33.33%;
+    }
+    .scorg-kind-tit {
+        padding: 6.5rem 0 2rem;
+        margin-top: -4.5rem;
+    }
+    .scorg-info-box {
+        padding: 2rem 0 10rem;
+    }
+    .cmn-figure__scorg {
+        top: auto;
+        bottom: 0;
+        right: -1.5rem;
+        width: 14rem;
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    .scent-area__md .cmn-hd-tit::after {
+        display: none;
+    }
+    .scnet-kind-cont li + li {
+        padding-top: 3rem;
+    }
+    .scent-sns-list li {
+        margin: 5px 0;
+        width: 30%;
+    }
+    .scent-area-btm .cmn-cont-tit {
+        padding-bottom: 4rem;
+    }
+    .scent-area-btm .paging-btn__primary {
+        width: 100%;
+    }
 }

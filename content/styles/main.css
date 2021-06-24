@@ -115,6 +115,29 @@ visual
     width: 31.95%;
 }
 
+@media screen and (max-width: 575.98px) {
+    .vsl-wrap {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .vsl-hd {
+        margin-bottom: 3rem;
+        background-size: 10px 2px;
+    }
+    .visit-count {
+        margin-bottom: 1rem;
+    }
+    .vsl-hd-tit {
+        padding-top: 3rem;
+        font-size: 4rem;
+        background-size: 125%;
+    }
+    .vsl-hd-txt {
+        padding-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
 /*============================================================
 campaign movie
 ============================================================*/
@@ -183,4 +206,52 @@ campaign movie
 }
 .mov-btn.active {
     color: #fff;
+}
+
+@media screen and (max-width: 575.98px) {
+    .mov-wrap {
+        flex-direction: column;
+    }
+    .mov-wrap .cmn-hd-tit {
+        padding-bottom: 2rem;
+        width: 100%;
+    }
+    .mov-wrap .cmn-hd-tit::after {
+        display: none;
+    }
+    .mov-wrap .cmn-cont {
+        width: 100%;
+    }
+    .mov-btn {
+        padding-left: 2rem;
+        margin-top: 1.5rem;
+    }
+    .mov-btn-slider {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        padding-top: 1rem;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .mov-btn-idx,
+    .mov-btn-label {
+        font-size: 1.2rem;
+    }
+    .mov-btn-label {
+        padding-right: 0;
+    }
+    .mov-btn-slider .slick-arrow {
+        bottom: -4.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .mov-btn-slider .slick-prev {
+        left: auto;
+        right: 4.5rem;
+    }
+    .mov-btn-slider .slick-next {
+        left: auto;
+        right: 0;
+    }
 }

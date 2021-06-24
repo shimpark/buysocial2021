@@ -75,14 +75,16 @@ function moNav() {
     $("nav").hide();
     $(".nav-tgl-btn__mo").removeClass("active");
 
-    $(".nav-tgl-btn__mo").on("click", function(e){
+    $(".nav-tgl-btn__mo").off("click").on("click", function(e){
         e.preventDefault();
 
         $(this).toggleClass("active");
         $("body").toggleClass("full");
         $("nav").toggle();
     });
-    $(".nav-tit__mo").off("click").on("click", function(){
+    $(".nav-tit__mo").off("click").on("click", function(e){
+        e.preventDefault();
+
         $(".nav-menu-list__mo").not($(this).next(".nav-menu-list__mo")).slideUp(150);
         $(this).next(".nav-menu-list__mo").slideToggle(150);
     });
@@ -133,7 +135,7 @@ function changeMov(thisMovBtn) {
 
 //event share event
 function tglShare() {
-    var tglEvShareBtn = $("[class^='ev-share-tglbtn__]");
+    var tglEvShareBtn = $("[class^='ev-share-tglbtn__']");
     var evShareList = $("[class^='ev-share-sns-list__']");
 
     tglEvShareBtn.on("click", function (e) {

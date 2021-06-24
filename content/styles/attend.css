@@ -86,8 +86,9 @@ Buy Social Week
     line-height: 1.6;
 }
 .week-schd-time-item .paging-btn__ghost {
-    padding: 1rem 1rem 0.75rem;
+    padding: 1rem 0;
     margin-top: 0.75rem;
+    width: 13.5rem;
 }
 [class^="week-event__"] {
     padding: 4rem 3rem;
@@ -161,6 +162,65 @@ Buy Social Week
     text-align: center;
 }
 
+@media screen and (max-width: 575.98px) {
+    .week-area__top {
+        padding-bottom: 13rem;
+    }
+    .week-area__top .desc-box {
+        padding: 1.5rem;
+    }
+    .week-area__md .cmn-cont {
+        padding: 2rem;
+    }
+    .week-schd dt,
+    .week-schd dd {
+        width: 100%;
+    }
+    .week-schd dt {
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .week-schd-time-item .cont {
+        padding-left: 0;
+        width: 100%;
+    }
+    .week-schd-time-item .cont::before {
+        display: none;
+    }
+    .week-schd-time-item .paging-btn__ghost {
+        padding: 1.5rem 0 1.25rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    [class^="week-event__"] {
+        padding: 3rem 1rem;
+    }
+    [class^="week-event__"] [class^="paging-btn__"] {
+        padding: 1.25rem 1.5rem;
+    }
+    [class^="week-event__"] [class^="paging-btn__"] .label-arw {
+        display: block;
+    }
+    .week-event__estorex11street {
+        border-width: 3px;
+    }
+    .week-event__3thexhibit .cmn-hd {
+        text-align: center;
+    }
+    .week-event__3thexhibit .info-list {
+        padding-top: 1rem;
+    }
+    .week-event__3thexhibit .info-item {
+        padding: 1rem 0;
+        width: 100%;
+        border: 0;
+    }
+    .week-event__3thexhibit figure {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+
 /*============================================================
 Buy Social Week
 ============================================================*/
@@ -184,6 +244,7 @@ Buy Social Week
     display: inline-block;
     position: relative;
     padding: 0 1rem;
+    line-height: 1.4;
     background-color: #f7f7f7;
 }
 .chlg-area__btm {
@@ -234,6 +295,29 @@ Buy Social Week
 }
 .chlg-area__attractt {
     padding-top: 4rem;
+}
+.chlg-area__attractt .attractt-tag {
+    width: 8rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .chlg-area__btm {
+        padding: 3rem 1rem;
+    }
+    .chlg-author-item {
+        padding: 1.5rem 0;
+        width: 50%;
+    }
+    .chlg-author-item .thumb {
+        width: 7rem;
+    }
+    .chlg-author-item .btn {
+        padding: 1rem 0;
+        width: 10rem;
+    }
+    .chlg-area__attractt .attractt-tag {
+        width: 10rem;
+    }
 }
 
 /*============================================================
@@ -326,6 +410,16 @@ Buy Social By Me Earth Season2
     width: 31rem;
 }
 
+@media screen and (max-width: 575.98px) {
+    [class*="ss2"] .byme-share {
+        top: -15px;
+    }
+    [class*="ss2"] .byme-ytb-btn {
+        bottom: 1.5rem;
+        width: 20rem;
+    }
+}
+
 /*============================================================
 Buy Social Enterprise
 ============================================================*/
@@ -376,6 +470,19 @@ Buy Social Enterprise
 }
 .ent-area__btm .paging-btn__secondary .label-arw {
     display: inline-block;
+}
+
+@media screen and (max-width: 575.98px) {
+    .ent-item {
+        width: 50%;
+    }
+    .ent-more-btn {
+        padding: 1.5rem 0;
+        width: 12rem;
+    }
+    .ent-area__btm .paging-btn__secondary {
+        width: 100%;
+    }
 }
 /* enterprise detail modal
 ============================================================*/
@@ -440,6 +547,16 @@ Buy Social Enterprise
     height: 5px;
     background-color: #ccc;
     border-radius: 100%;
+}
+
+@media screen and (max-width: 575.98px) {
+    .ent-modal-thumb {
+        width: 100%;
+    }
+    .ent-modal-cont {
+        padding: 4rem 0 2rem;
+        width: 100%;
+    }
 }
 
 /*============================================================
@@ -552,4 +669,36 @@ Apply Social Enterprise
 }
 .apply-homepage-chk + .apply-homepage-chk {
     padding-left: 2.5rem;
+}
+
+@media (max-width: 575.98px) {
+    .cmn-figure__apply {
+        display: none;
+    }
+    .apply-keyword-item {
+        margin-right: 0;
+        width: 100%;
+    }
+    .apply-keyword-item .del-btn {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .apply-industry-btn .label,
+    .apply-local-btn .label {
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .apply-industry-item,
+    .apply-local-item {
+        margin-right: 4%;
+        width: 48%;
+    }
+    .apply-industry-item:nth-child(5n),
+    .apply-local-item:nth-child(6n) {
+        margin-right: 2%;
+    }
+    .apply-industry-item:nth-child(even),
+    .apply-local-item:nth-child(even) {
+        margin-right: 0;
+    }
 }
