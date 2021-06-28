@@ -4,7 +4,7 @@
 Buy Social Week
 ============================================================*/
 .week-area__top {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 .week-area__top .cmn-cont-txt {
@@ -20,6 +20,12 @@ Buy Social Week
     position: absolute;
     bottom: 0;
     width: 7.5rem;
+}
+.week-area__top .cmn-figure__poster {
+    position: relative;
+    bottom: auto;
+    width: 11.5rem;
+    margin: 1.5rem auto 0;
 }
 .week-area__top .cmn-figure__boy {
     left: 3rem;
@@ -46,6 +52,7 @@ Buy Social Week
 .week-schd dt {
     padding-top: 1.5rem;
     width: 7.5rem;
+    line-height: 1.4;
 }
 .week-schd dd {
     width: calc(100% - 7.5rem);
@@ -79,7 +86,17 @@ Buy Social Week
     background-color: #101010;
 }
 .week-schd-time-item .tit {
+    display: block;
     line-height: 1.4;
+}
+.week-schd-time-item .btn {
+    display: inline-block;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+    width: 5rem;
+    text-align: center;
+    background-color: #e5e5e5;
+    border-radius: 2px;
 }
 .week-schd-time-item .txt {
     padding-top: 0.5rem;
@@ -94,14 +111,14 @@ Buy Social Week
     padding: 4rem 3rem;
     margin-top: 2rem;
 }
-[class^="week-event__"] [class^="paging-btn__"] { /* 0628 zoe 수정 */
+[class^="week-event__"] [class^="paging-btn__"] {
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 25rem;
     line-height: 1.4;
     border-radius: 3rem;
 }
-[class^="week-event__"] [class^="paging-btn__"] .label-arw { /* 0628 zoe 수정 */
+[class^="week-event__"] [class^="paging-btn__"] .label-arw {
     text-align: left;
     background-position: center right;
 }
@@ -118,8 +135,15 @@ Buy Social Week
     padding-bottom: 0.75rem;
     width: 13rem;
 }
+.week-event__estorex11street figure {
+    position: relative;
+    -webkit-transform: translateX(1rem);
+    transform: translateX(1rem);
+    margin: 1.5rem auto;
+    width: 32rem;
+}
 .week-event__estorex11street .cmn-cont-txt {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 .week-event__estorex11street .period-box {
     padding-top: 2rem;
@@ -142,6 +166,9 @@ Buy Social Week
     display: inline-block;
     padding-bottom: 0.5rem;
     font-size: 1.4rem;
+}
+.week-event__3thexhibit .cmn-hd-cont {
+    width: calc(100% - 14rem);
 }
 .week-event__3thexhibit figure {
     width: 14rem;
@@ -188,6 +215,11 @@ Buy Social Week
     .week-schd-time-item .cont::before {
         display: none;
     }
+    .week-schd-time-item .btn {
+        padding: 1rem 0;
+        margin-top: 1rem;
+        width: 7rem;
+    }
     .week-schd-time-item .paging-btn__ghost {
         padding: 1.5rem 0 1.25rem;
         margin-top: 1rem;
@@ -196,7 +228,7 @@ Buy Social Week
     [class^="week-event__"] {
         padding: 3rem 1rem;
     }
-    [class^="week-event__"] [class^="paging-btn__"] { /* 0628 zoe 수정 */
+    [class^="week-event__"] [class^="paging-btn__"] {
         padding: 1.25rem 1.5rem;
         width: 100%;
     }
@@ -209,6 +241,11 @@ Buy Social Week
     .week-event__3thexhibit .cmn-hd {
         text-align: center;
     }
+    .week-event__estorex11street figure {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 100%;
+    }
     .week-event__3thexhibit .info-list {
         padding-top: 1rem;
     }
@@ -216,6 +253,9 @@ Buy Social Week
         padding: 1rem 0;
         width: 100%;
         border: 0;
+    }
+    .week-event__3thexhibit .cmn-hd-cont {
+        width: 100%;
     }
     .week-event__3thexhibit figure {
         margin-top: 2rem;
@@ -538,7 +578,7 @@ Buy Social Enterprise
     padding-left: 0.75rem;
     margin-top: 0.5rem;
 }
-.ent-modal-info-item li::before { /* 0628 zoe 수정 */
+.ent-modal-info-item li::before {
     content: "";
     position: absolute;
     top: 5px;
