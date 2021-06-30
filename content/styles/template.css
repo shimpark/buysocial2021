@@ -25,6 +25,9 @@ body {
 .grid1170 {
     max-width: 1170px;
 }
+.grid900 { /* 0630 zoe 추가 */
+    max-width: 900px;
+}
 
 @media screen and (max-width: 1199.98px) {
     html {
