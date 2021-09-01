@@ -1,0 +1,380 @@
+@charset "utf-8";
+
+.pc-no {
+    display: none;
+}
+
+.nfw500 {
+    font-family: 'Noto Sans Korean';
+    font-weight: 500;
+}
+
+.efw500 {
+    font-family: 'GmarketSansMedium';
+}
+
+.efw400 {
+    font-family: 'GmarketSansLight';
+}
+
+.bg-white2 {
+    background: #f7f6f6;
+}
+
+.bg-white3 {
+    background: #f9fafd;
+}
+
+.fc-black2 {
+    color: #000;
+}
+
+.fc-gray {
+    color: #363636;
+}
+
+.fc-orange2 {
+    color: #f59203;
+}
+
+.chlg-area__md .cmn-ev-form-tit {
+    letter-spacing: -0.5px;
+}
+
+.event .cmn-ev-form-wrap {
+    border-bottom: 1px solid #e0e1e3;
+}
+
+.campaign.movie {
+    padding: 5rem 4rem;
+    background-color: #33bc80;
+}
+
+.mov-btn-slider {
+    left: 4rem;
+    bottom: 5rem;
+}
+
+.mov-wrap .cmn-hd-tit {
+    font-size: 1.5rem;
+}
+
+.mov-wrap .cmn-hd-tit::after {
+    top: 2.5rem;
+    height: 6rem;
+}
+
+.mov-wrap .cmn-hd-tit,
+.mov-btn-slider {
+    width: 10.2rem;
+}
+
+.mov-wrap .cmn-cont {
+    padding-top: 0;
+    width: calc(100% - 10.2rem);
+}
+
+.mov-btn-slider {
+    padding-bottom: 3rem;
+}
+
+.mov-btn {
+    color: #FFF;
+    opacity: .3;
+}
+
+.mov-btn.active {
+    opacity: 1;
+    font-weight: 400;
+}
+
+.mov-btn-slider .slick-arrow {
+    background-color: #248359;
+}
+
+.mov-btn-label {
+    padding-right: 1rem;
+    font-weight: 400;
+}
+
+.cmn-ev-form-wrap {
+    padding-top: 3.25rem;
+}
+
+/* 실천다짐 댓글 */
+.comment .cmn-ev-form-wrap {
+    margin-bottom: 2.25rem;
+    padding-bottom: 3.25rem;
+    border-bottom: 8px solid #959698;
+}
+
+.message_list li {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #c7c8ca;
+}
+
+.message_list li span {
+    display: block;
+    line-height: 1.5;
+    color: #000;
+}
+
+.message_list li .name {
+    padding-bottom: 0.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.message_list li .text {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.message_list li .time {
+    font-size: 16px;
+    font-style: normal;
+    color: #b1b1b1;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.more_btn {
+    margin-top: 2.25rem;
+    padding: 0.9rem 0;
+    display: inline-block;
+    width: 19.5rem;
+    border: 1px solid #c7c8ca;
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+
+/* 캠페인 이벤트 */
+.campaign-event {
+    position: relative;
+}
+
+.campaign-btn01,
+.campaign-btn02 {
+    position: absolute;
+}
+
+.campaign-btn01 {
+    top: 15.2%;
+    left: 22.9%;
+    width: 53.6%;
+    height: 3.5%;
+}
+
+.campaign-btn02 {
+    left: 33.60%;
+    bottom: 2.70%;
+    width: 33.09%;
+    height: 3%;
+}
+
+/* 행사 */
+.week .week-area__md {
+    padding: 3.25rem 0;
+    border: 0;
+    background-color: #f7f7f7;
+}
+
+.week-area__md dl:nth-child(2) dt {
+    padding-top: 0.8rem;
+}
+
+.week-schd dt {
+    padding-top: 1.2rem;
+}
+
+.week-area__md .cmn-cont dl:last-child {
+    border: 0;
+}
+
+.week-schd-time-item .paging-btn__ghost {
+    padding: 0.85rem 1rem;
+    text-align: right;
+    margin-right: 0;
+    margin-left: 0;
+    width: 12.5rem;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.week-schd-time-item .paging-btn__ghost:hover {
+    background-color: #101010;
+}
+
+.week-area__md dl:nth-child(2) .paging-btn__ghost {
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    width: 15.6rem;
+    line-height: 1.2;
+}
+
+.week-area__md dl:nth-child(2) .paging-btn__ghost .label-arw {
+    background-position: top 0.3rem right;
+}
+
+.week-area__md dl:nth-child(5) .paging-btn__ghost {
+    margin-left: 2rem;
+    width: 11.9rem;
+    min-width: 11.35rem;
+}
+
+.week-schd-time-item .cont.type2 {
+    padding-bottom: 1.25rem;
+}
+
+.week-schd-time-item .cont.type2 .paging-btn__ghost {
+    width: 14.5rem;
+}
+
+.week-area__md dl:nth-child(4) dt span {
+    padding: 0.1rem 0.2rem 0 0.2rem;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 300;
+    background-color: #d7d7d7;
+}
+
+.week-schd-time-item .cont {
+    width: calc(100% - 2rem);
+}
+
+.week-schd-time-item .cont::before {
+    left: 0;
+}
+
+.week-area__md dl:nth-child(4) .cont::before,
+.week-area__md dl:nth-child(5) .cont::before {
+    left: 1rem;
+}
+
+.week-schd-time-item .txt {
+    color: #666666;
+}
+
+@media screen and (min-width: 1200px) {
+    [class^="paging-btn__"] .label-arw {
+        padding-right: 2.5rem;
+        -webkit-transition: padding-right 0.25s cubic-bezier(.48, .65, .45, 1.48);
+        transition: padding-right 0.25s cubic-bezier(.48, .65, .45, 1.48);
+    }
+
+    [class^="paging-btn__"]:hover .label-arw {
+        padding-right: 2.9rem;
+    }
+}
+
+
+@media (max-width: 768.99px) {
+    .week-schd-time-item .paging-btn__ghost {
+        width: 14.5rem;
+    }
+
+    .week-area__md dl:nth-child(2) .paging-btn__ghost {
+        width: 18.5rem;
+    }
+
+    .week-schd-time-item .cont.type2 .paging-btn__ghost {
+        width: 16.5rem;
+    }
+
+    .week-area__md dl:nth-child(5) .paging-btn__ghost {
+        width: 13.9rem;
+    }
+}
+
+@media (max-width: 576.99px) {
+    .mb-no {
+        display: none;
+    }
+
+    .pc-no {
+        display: block;
+    }
+
+    .campaign.movie {
+        padding: 5rem 20px 6rem 20px;
+    }
+
+    .mov-wrap .cmn-hd-tit,
+    .mov-btn-slider,
+    .mov-wrap .cmn-cont,
+    .week-schd-time-item .cont,
+    .week-area__md dl:nth-child(2) .paging-btn__ghost,
+    .week-schd-time-item .cont.type2 .paging-btn__ghost,
+    .week-area__md dl:nth-child(5) .paging-btn__ghost {
+        width: 100%;
+    }
+
+    .mov-wrap .cmn-hd-tit,
+    .mov-btn-slider {
+        font-size: 20px;
+    }
+
+    .mov-btn-slider {
+        left: auto;
+        bottom: auto;
+    }
+
+    .mov-btn-idx,
+    .mov-btn-label,
+    .week-area__md dl:nth-child(4) dt span {
+        font-size: 1.2rem;
+    }
+
+    .message_list li .time {
+        font-size: 14px;
+    }
+
+    .message_list li .name,
+    .message_list li .text {
+        font-size: 16px;
+    }
+
+    .week-schd-time-item .paging-btn__ghost,
+    .week-area__md dl:nth-child(2) .paging-btn__ghost {
+        padding: 1.5rem 0 1.25rem;
+    }
+
+    .week-schd-time-item .paging-btn__ghost {
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .week-area__md dl:nth-child(5) .paging-btn__ghost {
+        margin-left: 0;
+    }
+
+    .week-area__md dl:nth-child(2) .paging-btn__ghost .label-arw {
+        background-position: top 0.8rem right;
+    }
+}
+
+@media (max-width: 360.99px) {
+    [class^="paging-btn__"] .label-arw {
+        padding-right: 2.4rem;
+    }
+}
+
+@media (max-width: 320.99px) {
+
+    .week-schd-time-item .paging-btn__ghost,
+    .week-area__md dl:nth-child(2) .paging-btn__ghost {
+        padding: 1rem 1rem 1rem;
+        line-height: 1.5;
+    }
+
+    [class^="paging-btn__"] .label-arw {
+        background-position: top 0.8rem right;
+    }
+
+    .week-area__md dl:nth-child(2) .paging-btn__ghost .label-arw {
+        background-position: top 2rem right;
+    }
+
+}
