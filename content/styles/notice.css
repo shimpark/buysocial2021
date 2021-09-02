@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+.notice_area {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.hd_tit_box {
+    line-height: 1.25;
+    text-align: center;
+}
+.hd_tit {
+    font-weight: 300;
+}
+.hd_txt {
+    font-weight: 300;
+    padding-top: 0.5rem;
+}
+
+/*============================================================
+공지사항
+============================================================*/
+.notice_search {
+    padding-bottom: 1.5rem;
+    text-align: right;
+}
+.notice_search .form_el {
+    display: inline-block;
+    position: relative;
+}
+.notice_search .form_input {
+    padding-right: 3rem;
+    color: #000;
+}
+.notice_search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.75rem;
+    height: 2.75rem;
+    background: url('../images/common/form-search-ico.png') no-repeat center;
+    background-size: 2rem;
+}
+.notice_list {
+    width: 100%;
+    table-layout: fixed;
+    border-top: 2px solid #01a7a3;
+}
+.notice_list .w1 {
+    width: 9.5%;
+}
+.notice_list .w2 {
+    width: 15%;
+}
+.notice_list th,
+.notice_list td {
+    padding: 1.5rem 0;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+}
+.notice_list th {
+    font-weight: 400;
+    color: #01a7a3;
+}
+.notice_list .el {
+    font-size: 0.7rem;
+    color: #666;
+}
+.notice_list .tit_row {
+    padding: 0 0 0 3rem;
+    text-align: left;
+}
+.notice_list .tit {
+    display: inline-block;
+    position: relative;
+    padding: 1.5rem 0 1.5rem;
+    max-width: 100%;
+}
+.notice_list .tit:hover {
+    color: #01a7a3;
+}
+.notice_list .new {
+    padding-right: 1.5rem;
+}
+.notice_list .new:after {
+    content: "N";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #fff;
+    background-color: #01a7a3;
+    border-radius: 100%;
+}
+
+.notice_hd_tit {
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid #01a7a3;
+    border-bottom: 1px solid #e7e7e7;
+}
+.notice_hd_tit .tit {
+    display: block;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+.notice_hd_tit .date {
+    display: block;
+    padding-top: 0.75rem;
+    line-height: 1;
+    color: #666;
+}
+.notice_txt {
+    padding: 4rem 3rem;
+    min-height: 23.25rem;
+    line-height: 1.5;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.pagination {
+    padding-top: 4rem;;
+}
+.pagination .arw {
+    width: 0.5rem;
+    height: 1.5rem;
+    background-size: 100% !important;
+    opacity: 0.2;
+}
+.pagination .prev {
+    margin-right: 1rem;
+    background: url('../images/common/form-page-arw-prev.png') no-repeat center;
+}
+.pagination .next {
+    margin-left: 1rem;
+    background: url('../images/common/form-page-arw-next.png') no-repeat center;
+}
+.pagination .arw:hover {
+    opacity: 1;
+}
+.pagination .idx {
+    position: relative;
+    margin: 0 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 100%;
+}
+.pagination .idx.on {
+    color: #fff;
+    background-color: #01a7a3;
+}
+
+@media (max-width: 991.98px) {
+    .notice_list .tit_row {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .notice_list .w1 {
+        width: 15%;
+    }
+    .notice_list .w2 {
+        width: 25%;
+    }
+    .notice_search .form_el {
+        display: block;
+    }
+    .notice_search button {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .notice_list col:last-child,
+    .notice_list th:last-child,
+    .notice_list td:last-child {
+        display: none;
+    }
+
+    .notice_hd_tit .tit {
+        font-size: 1.5rem;
+    }
+    .notice_hd_tit .date {
+        font-size: 1rem;
+    }
+    .notice_txt {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pagination .arw {
+        height: 2rem;
+        opacity: 0.5;
+    }
+    .pagination .idx {
+        margin: 0 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+
+/*============================================================
+FAQ
+============================================================*/
+.faq_tab_box {
+    padding-bottom: 3rem;
+}
+.faq_tab {
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+.faq_tab .liner {
+    background: none;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+}
+.faq_tab.cha2.on .liner {
+    background-image: url('../images/common/liner-04.png');
+}
+.faq_tab.cha3.on .liner {
+    background-image: url('../images/common/liner-05.png');
+}
+.faq_tab.cha4.on .liner {
+    background-image: url('../images/common/liner-06.png');
+}
+.faq_list {
+    border: 1px solid #e7e7e7;
+    border-top: 0;
+}
+.faq_list .txt_indent {
+    padding-left: 2.25rem;
+}
+.faq_list .q {
+    padding: 1.5rem 3rem;  
+    background-repeat: no-repeat;
+    background-position: center right 3rem;
+    background-size: 0.9rem;
+    background-image: url('../images/common/faq-arw-fold.png');
+    border-top: 1px solid #e7e7e7;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+.faq_list .q.on {
+    color: #01a7a3;
+    background-image: url('../images/common/faq-arw-unfold.png');
+}
+.faq_list .tit {
+    display: block;
+    padding-right: 3rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.faq_list .tit .mark {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #01a7a3;
+}
+.faq_list .a {
+    display: none;
+    padding: 2rem 3rem;
+    border-top: 1px solid #e7e7e7;
+    background-color: #f6f6f6;
+}
+.faq_list .txt {
+    font-size: 0.9rem;
+    line-height: 1.375;
+}
+
+@media (max-width: 991.98px) {
+    .faq_list .q,
+    .faq_list .a {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .faq_list .q {
+        background-position: center right 2rem;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .faq_list .q,
+    .faq_list .a {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .faq_list .q {
+        background-position: center right 1rem;
+    }
+    .faq_list .tit {
+        padding-right: 2rem;
+    }
+    .faq_list .txt {
+        font-size: 1.1rem;
+    }
+}

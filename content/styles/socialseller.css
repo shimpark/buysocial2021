@@ -1,0 +1,921 @@
+@charset "utf-8";
+
+.common_area {
+    text-align: center;
+}
+.common_dl {
+    text-align: left;
+}
+
+.more_btn_box {
+    position: relative;
+    text-align: center;
+}
+.more_btn_box:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+.more_btn {
+    position: relative;
+    padding: 0.5rem 1.1rem;
+    font-size: 1rem;
+    background-color: #e1e1e1;
+    border-radius: 2rem;
+}
+
+@media (max-width: 575.98px) {
+    .more_btn {
+        font-size: 1.2rem;
+    }
+}
+
+/*============================================================
+사회적 경제란
+============================================================*/
+.eco_scrl_figure.first {
+    top: 2%;
+    right: 3%;
+    width: 50%;
+}
+.eco_scrl_figure.second {
+    top: 22.5%;
+    left: 4.3%;
+    width: 13.25%;
+}
+.eco_scrl_figure.third {
+    top: 43.25%;
+    left: -5%;
+    width: 35%;
+}
+.eco_scrl_figure.last {
+    top: 90%;
+    right: -5%;
+    width: 21.35%;
+}
+.economy_area {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.economy_area .hd_tit_box {
+    padding-bottom: 2.5rem;
+}
+.economy_area .hd_tit {
+    font-weight: 300;
+    line-height: 1.25;
+}
+.infographic_box {
+    padding-top: 2.5rem;
+}
+.meaning_list {
+    position: relative;
+}
+.meaning_list:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+.meaning_list li {
+    width: 20.6%;
+}
+.meaning_list .rect {
+    position: relative;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.meaning_list .txt_box {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+.meaning_list .label {
+    display: inline-block;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid #fe5957;
+}
+.meaning_list strong {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.25;
+}
+
+@media (max-width: 991.98px) {
+    .meaning_list strong {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 575.98px) {
+    .eco_scrl_figure.first {
+        top: 15%;
+        width: 70%;
+    }
+    .eco_scrl_figure.second {
+        top: 55%;
+        width: 20%;
+    }
+    .eco_scrl_figure.third {
+        top: 43.25%;
+        left: -15%;
+        width: 60%;
+    }
+    .eco_scrl_figure.last {
+        top: 125%;
+        right: 3%;
+        width: 25%;
+    }
+    .meaning_list:before {
+        display: none;
+    }
+    .meaning_list li {
+        width: 45%;
+    }
+    .meaning_list li:nth-last-child(-n+2) {
+        margin-top: 1.5rem;
+    }
+    .meaning_list strong {
+        font-size: 1.2rem;
+    }
+}
+
+/*============================================================
+사회적 경제기업이란
+============================================================*/
+.ent_scrl_figure.first {
+    top: 2%;
+    right: 3%;
+    width: 50%;
+}
+.ent_scrl_figure.second {
+    top: 10.5%;
+    left: 4.3%;
+    width: 13.25%;
+}
+.ent_scrl_figure.third {
+    top: 23%;
+    left: -1.5%;
+    width: 26%;
+}
+.ent_scrl_figure.fourth {
+    top: 55%;
+    left: -2.5%;
+    width: 35%;
+}
+.ent_scrl_figure.fifth {
+    top: 90%;
+    right: -5%;
+    width: 21.35%;
+    z-index: 1;
+}
+.ent_scrl_figure.sixth {
+    top: 65%;
+    left: -5%;
+    width: 25.65%;
+}
+.ent_scrl_figure.last {
+    top: 108%;
+    right: -2.5%;
+    width: 33.33%;
+}
+.ent_area {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.ent_inner {
+    font-weight: 300;
+    line-height: 1.5;
+}
+.ent_area .hd_tit_box {
+    padding-bottom: 2.5rem;
+}
+.ent_area .hd_tit {
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.25;
+}
+.ent_inner .liner {
+    position: relative;
+}
+.ent_inner .liner:before {
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    right: -5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #fe5957;
+}
+.grey .liner:before {
+    background-color: #01a7a3;
+}
+.ent_inner .liner:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+.toggle_tit_box {
+    position: relative;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e1e1e1;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+.toggle_tit_box .btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url('../images/socialseller/toggle-btn-arw-unfold.png');
+    border: 1px solid #000;
+}
+.toggle_tit_box.on .btn {
+    background-image: url('../images/socialseller/toggle-btn-arw-fold.png');
+}
+.toggle_txt_box {
+    display: none;
+    padding-bottom: 2.25rem;
+}
+.toggle_txt_box dt {
+    font-weight: 500;
+    padding-top: 2.25rem;
+}
+.toggle_txt_box dd {
+    padding: 0.75rem 1rem 0;
+    font-size: 0.9rem;
+}
+.toggle_txt_box dd .btn {
+    position: relative;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+}
+.toggle_txt_box dd .btn:hover {
+    color: #000;
+    border-color: #000;
+}
+.org_list li {
+    position: relative;
+    padding: 1rem 0;
+    margin: 0 7px;
+    width: 7.75rem;
+    font-weight: 500;
+    line-height: 1;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.org_tit {
+    display: block;
+    padding: 3rem 0 2rem;
+    margin-top: -1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #01a7a3;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3rem;
+}
+.org_info {
+    padding-top: 2.5rem;
+}
+.org_info li + li {
+    margin-top: 2rem;
+}
+.org_info p {
+    font-size: 0.9rem;
+}
+.channel_list li {
+    width: 33.33%;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+.channel_list li:first-child,
+.channel_list li:nth-child(4n) {
+    margin-left: 0;
+}
+.channel_list a {
+    display: block;
+    padding: 1.25rem 0;
+}
+.channel_list .label_box {
+    display: inline-block;
+    width: 11.25rem;
+    text-align: left;
+}
+.channel_list .ico {
+    display: inline-block;
+    width: auto;
+    height: 2.25rem;
+    vertical-align: bottom;
+}
+.channel_list .label {
+    display: inline-block;
+    padding-left: 0.5rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+@media (max-width: 991.98px) {
+    .org_list li {
+        width: 6.5rem;
+    }
+}
+@media (max-width: 767.98px) {
+    .channel_list .label_box {
+        width: 100%;
+    }
+}
+@media (max-width: 575.98px) {
+    .ent_area .hd_tit {
+        font-size: 1.5rem;
+    }
+    .ent_area .common_btn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .org_info p {
+        font-size: 1.1rem;
+    }
+    .org_list li {
+        margin: 0.5rem 2.5% 0 0;
+        width: 31%;
+    }
+    .org_list li:nth-child(3n),
+    .org_list li:last-child {
+        margin-right: 0;
+    }
+    .org_tit {
+        padding: 7rem 0 2rem;
+        margin-top: -5rem;
+        border-radius: 0;
+    }
+    .toggle_txt_box dd {
+        font-size: 1.1rem;
+    }
+    .toggle_txt_box dd .btn {
+        font-size: 1rem;
+    }
+    .channel_list .ico {
+        display: block;
+        margin: 0 auto;
+        height: 2rem;
+    }
+    .channel_list .label {
+        display: block;
+        padding-top: 0.5rem;
+        padding-left: 0;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+/*============================================================
+사회적 기업 소개
+============================================================*/
+.intro_area {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.intro_scrl_figure.first {
+    top: 14%;
+    right: 3.4%;
+    width: 45.72%;
+}
+.intro_scrl_figure.second {
+    top: 20.95%;
+    left: 27.5%;
+    width: 10.25%;
+}
+.intro_scrl_figure.last {
+    top: 72%;
+    left: 11.11%;
+    width: 17.1%;
+}
+.intro_area .hd_tit_box {
+    line-height: 1.25;
+}
+.intro_area .hd_tit,
+.intro_area .hd_txt {
+    font-weight: 300;
+}
+.intro_area .btn_box {
+    margin-top: 2.75rem;
+}
+.seller_list {
+    padding-top: 3.25rem;
+}
+.seller_list li {
+    margin-top: 2.75rem;
+    margin-right: 5.625%;
+    width: 15.5%;
+}
+.seller_list li:nth-child(5n),
+.seller_list li:last-child {
+    margin-right: 0;
+}
+.seller_list .thumb {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+.seller_list .thumb:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #f5f5f5;
+    -webkit-transition: transform .35s cubic-bezier(0,1.19,.74,1.39);
+    transition: transform .35s cubic-bezier(0,1.19,.74,1.39);
+}
+.seller_list .thumb img {
+    -webkit-transition: transform .25s ease;
+    transition: transform .25s ease;
+}
+.seller_list .circ {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.seller_list .thumb:hover:before {
+    -webkit-transform: translate(6.5%, 10%);
+    transform: translate(6.5%, 10%);
+}
+.seller_list .thumb:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.seller_modal {
+    position: relative;
+    width: 48.5rem;
+    background-color: #fff;
+}
+.seller_modal .close_modal {
+    position: absolute;
+    top: -1.3rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 2.75rem;
+    height: 2.75rem;
+    background-color: #fff454;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+}
+.seller_modal .close_modal:before,
+.seller_modal .close_modal:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.5rem;
+    height: 2px;
+    background-color: #000;
+}
+.seller_modal .close_modal:before {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.seller_modal .close_modal:after {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.seller_modal .el {
+    width: 50%;
+}
+.seller_modal .rt {
+    padding: 2rem;
+}
+.seller_modal .tit {
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.seller_modal .info {
+    position: relative;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.seller_modal .tit_box {
+    align-items: baseline;
+    padding-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #ccc;
+}
+.seller_modal .tit_info + .tit_info {
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+.seller_modal .tit_info + .tit_info:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 0.5rem;
+    background-color: #ccc;
+}
+.seller_modal .tag_box {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fe5957;
+    word-break: break-all;
+}
+.seller_modal .txt_box {
+    overflow-y: auto;
+    margin: 1rem 0;
+    height: 7rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.seller_modal .txt_box strong {
+    display: block;
+    padding-bottom: 1rem;
+}
+.seller_modal .info_box .info {
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+.seller_modal .info_box .info:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .seller_modal {
+        width: 90%;
+    }
+}
+@media (max-width: 767.98px) {
+    .seller_modal {
+        position: relative;
+        top: auto;
+        left: auto;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        margin: 5rem auto;
+    }
+    .seller_modal .modal_cont {
+        display: block;
+    }
+    .seller_modal .el {
+        width: 100%;
+    }
+}
+@media (max-width: 575.98px) {
+    .intro_area {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .seller_list {
+        padding-top: 1.5rem;
+    }
+    .seller_list li {
+        margin-right: 5%;
+        width: 30%;
+    }
+    .seller_list li:nth-child(5n) {
+        margin-right: 5%;
+    }
+    .seller_list li:nth-child(3n) {
+        margin-right: 0;
+    }
+    .seller_modal .close_modal {
+        top: -1.75rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .seller_modal .info {
+        font-size: 1rem;
+    }
+    .seller_modal .tag_box {
+        font-size: 1.1rem;
+    }
+    .seller_modal .txt_box {
+        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+    }
+}
+
+/*============================================================
+사회적 기업 등록
+============================================================*/
+.apply_area {
+    text-align: left;
+}
+.apply_scrl_figure {
+    top: 8.5%;
+    right: 18%;
+    width: 17.1%;
+    z-index: 1;
+}
+.apply_area  .rect_figure_box {
+    right: 0;
+    height: 21%;
+}
+.apply_area  .rect_figure_box .bg {
+    right: 0;
+    background-color: #fafafa;
+}
+.apply_area  .rect_figure_box img {
+    top: 28.5%;
+    left: 15%;
+    width: 65%;
+}
+.form_box {
+    position: relative;
+}
+.form_tit {
+    padding-left: 2.25rem;
+    margin: 3rem 0 1.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.form_tit small {
+    font-size: 0.9rem;
+}
+.form_field_box {
+    padding-left: 2rem;
+}
+.form_tip {
+    padding-top: 5px;
+}
+.form_tit .form_tip {
+    float: right;
+}
+.form_keyword_box {
+    padding: 1rem 1.5rem 1.5rem;
+    width: 100%;
+    background-color: #fafafa;
+}
+.form_keyword_box li {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-right: 5%;
+    width: 30%;
+}
+.form_keyword_box li:nth-child(3n),
+.form_keyword_box li:last-child {
+    margin-right: 0;
+}
+.form_keyword {
+    padding-right: 3rem;
+    width: 100%;
+}
+.form_keyword_box .btn {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+}
+.form_keyword_box .btn:before,
+.form_keyword_box .btn:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #666;
+}
+.form_keyword_box .btn:before {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.form_keyword_box .btn:after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.form_keyword_box .add {
+    display: none;
+    font-size: 1rem;
+    line-height: 2.75rem;
+    text-align: center;
+    color: #666;
+    border: 1px dashed #666;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+.apply_area .btn_box {
+    padding: 4rem 0;
+}
+.apply_area .common_btn {
+    padding-left: 0;
+    padding-right: 0;
+    width: 12.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .form_tit .form_tip {
+        display: block;
+        float: none;
+    }
+}
+@media (max-width: 575.98px) {
+    .apply_area  .rect_figure_box {
+        display: none;
+    }
+    .form_tit {
+        line-height: 1.25;
+    }
+    .form_tit small {
+        font-size: 1rem;
+    }
+    .form_field_box {
+        padding-left: 0;
+    }
+    .form_keyword_box li {
+        width: 47.5%;
+    }
+    .form_keyword_box li:nth-child(3n) {
+        margin-right: 5%;
+    }
+    .form_keyword_box li:nth-child(2n) {
+        margin-right: 0;
+    }
+    .form_keyword_box .add {
+        font-size: 1.2rem;
+    }
+}
+
+/*============================================================
+#IamSocialSeller
+============================================================*/
+.iam_area .rect_figure_box {
+    top: 0;
+    right: 8.5%;
+    width: 48.75%;
+    height: 45%;
+}
+.iam_area .rect_figure_box .bg {
+    right: 0;
+    background: #fff454 url('../images/socialseller/iam_rect_bg.png') center top;
+}
+.iam_area img {
+    top: 18%;
+    left: 18.4%;
+    width: 81.6%;
+}
+.iam_area .common_btn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.iam_process {
+    padding-top: 10rem;
+}
+.iam_process li {
+    padding-left: 1.25rem;
+    margin-top: 2.5rem;
+}
+.iam_process .common_btn {
+    margin-top: -2rem;
+    margin-left: 2.75rem;
+    vertical-align: top;
+}
+.iam_keyword {
+    padding-top: 2.5rem;
+}
+.iam_keyword span {
+    font-size: 0.8rem;
+}
+.iam_keyword p {
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+.iam_tip_box {
+    padding: 2.5rem;
+    font-weight: 300;
+}
+.iam_tip_box .hd_tit {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.iam_tip_box .hd_txt {
+    padding-top: 1.25rem;
+    font-size: 1rem;
+}
+.iam_tip_box dl {
+    padding: 2.5rem 0;
+    margin: 2.5rem 0;
+    line-height: 1.5;
+    text-align: left;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+}
+.iam_tip_box dt {
+    font-weight: 300;
+    width: 10rem;
+}
+.iam_tip_box dd {
+    width: calc(100% - 10rem);
+    font-size: 0.9rem;
+}
+.iam_tip_box .txt_box + .txt_box {
+    padding-top: 2rem;
+}
+.iam_tip_box .txt_box .tit {
+    font-weight: 300;
+    width: 4.25rem;
+}
+.iam_tip_box .txt_box .txt {
+    width: calc(100% - 4.25rem);
+}
+
+@media (max-width: 575.98px) {
+    .iam_area .rect_figure_box {
+        top: auto;
+        bottom: -5rem;
+        right: 0;
+        width: 65%;
+        height: 34%;
+    }
+    .iam_process {
+        padding-top: 2rem;
+    }
+    .iam_process li {
+        padding-left: 2rem;
+        margin-top: 2rem;
+    }
+    .iam_process .common_btn {
+        margin-top: 0.5rem;
+        margin-left: 0;
+    }
+    .iam_keyword span {
+        font-size: 1rem;
+    }
+    .iam_keyword p {
+        font-size: 1.4rem;
+    }
+    .iam_tip_box {
+        padding: 2.5rem 1.5rem;
+    }
+    .iam_tip_box .hd_tit {
+        font-size: 1.5rem;
+    }
+    .iam_tip_box .hd_txt {
+        font-size: 1.2rem;
+        line-height: 1.25;
+    }
+    .iam_tip_box dl {
+        display: block;
+    }
+    .iam_tip_box dt,
+    .iam_tip_box dd {
+        width: 100%;
+    }
+    .iam_tip_box dd {
+        padding-top: 2rem;
+        font-size: 1.1rem;
+    }
+}

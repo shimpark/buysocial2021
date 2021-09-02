@@ -4,7 +4,7 @@ var mqNotWeb = window.matchMedia("screen and (max-width: 1199.98px)");
 var mqPad = window.matchMedia("screen and (max-width: 991.98px)");
 var mqMobile = window.matchMedia("screen and (max-width: 576.98px)");
 
-$(document).ready(function(){
+$(document).ready(function () {
     //navigation event
     if (mqWeb.matches) {
         pcNav();
@@ -14,7 +14,7 @@ $(document).ready(function(){
     }
 });
 
-$(window).on("resize", function(){
+$(window).on("resize", function () {
     //media query matches value
     var mqWeb = window.matchMedia("screen and (min-width: 1200px)");
     var mqNotWeb = window.matchMedia("screen and (max-width: 1199.98px)");
@@ -51,7 +51,7 @@ function closeBackmodal() {
     var modalArea = $(".modal-area");
     var modalWrap = $("[class^=modal-wrap__]");
 
-    modalArea.on("click", function(e){
+    modalArea.on("click", function (e) {
         if (!$(e.target).closest(modalWrap).length) {
             $("body").removeClass("full");
             $(this).fadeOut(150);
@@ -63,11 +63,11 @@ function closeBackmodal() {
 function pcNav() {
     $("nav").show();
     $(".nav-menu-list__mo").hide();
-    
-    $(".nav-tit").mouseover(function(){
+
+    $(".nav-tit").mouseover(function () {
         $(".btm-hd").show();
     });
-    $("header").mouseleave(function(){
+    $("header").mouseleave(function () {
         $(".btm-hd").hide();
     });
 }
@@ -75,14 +75,14 @@ function moNav() {
     $("nav").hide();
     $(".nav-tgl-btn__mo").removeClass("active");
 
-    $(".nav-tgl-btn__mo").off("click").on("click", function(e){
+    $(".nav-tgl-btn__mo").off("click").on("click", function (e) {
         e.preventDefault();
 
         $(this).toggleClass("active");
         $("body").toggleClass("full");
         $("nav").toggle();
     });
-    $(".nav-tit__mo").off("click").on("click", function(e){
+    $(".nav-tit__mo").off("click").on("click", function (e) {
         e.preventDefault();
 
         $(".nav-menu-list__mo").not($(this).next(".nav-menu-list__mo")).slideUp(150);
@@ -95,7 +95,7 @@ function tglItem() {
     var cmnTglTit = $(".faq-list-tit-box, .cmn-tgl-tit");
     var cmnTglCont = $(".faq-list-txt, .cmn-tgl-cont");
 
-    cmnTglTit.on("click", function(){
+    cmnTglTit.on("click", function () {
         cmnTglTit.not($(this)).removeClass("active");
         $(this).toggleClass("active");
 
@@ -108,7 +108,7 @@ function tglItem() {
 function tabMenu() {
     var tabMenu = $(".tab-menu");
 
-    tabMenu.on("click", function(){
+    tabMenu.on("click", function () {
         tabMenu.not($(this)).removeClass("active");
         $(this).addClass("active");
     });
@@ -127,10 +127,15 @@ function mainMovBtnSlider() {
 function changeMov(thisMovBtn) {
     var movID = $(thisMovBtn).attr("data-movid");
 
-    $(".mov-btn").not($(thisMovBtn)).removeClass("active"); 
+    $(".mov-btn").not($(thisMovBtn)).removeClass("active");
     $(thisMovBtn).addClass("active");
 
     $("#mov").attr("src", "https://www.youtube.com/embed/" + movID);
+}
+
+//main close banner event (0629 zoe 추가)
+function closeMainBnr(thisBnr) {
+    $(thisBnr).parents("[class^='bnr-item__']").hide();
 }
 
 //event share event
@@ -159,7 +164,7 @@ function consumeTest() {
 
     $(".consume-quiz-result-btn").hide();
 
-    $(".consume-quiz-ex input[type=radio]").on("click", function(){
+    $(".consume-quiz-ex input[type=radio]").on("click", function () {
         var totalConsumeQuizCount = 12;
         var chkConsumeQuizCount = $("input[type=radio]:checked").length;
         var selectedConsumeQuizCount = totalConsumeQuizCount - chkConsumeQuizCount;
@@ -171,7 +176,7 @@ function consumeTest() {
         }
     });
 
-    $(".consume-quiz-result-btn").on("click", function(){
+    $(".consume-quiz-result-btn").on("click", function () {
         var totalConsumeQuizCount = 12;
         var chkConsumeQuizCount = $("input[type=radio]:checked").length;
         var selectedConsumeQuizCount = totalConsumeQuizCount - chkConsumeQuizCount;
@@ -214,31 +219,31 @@ function addDelKeyword() {
 
 //counter event
 function txtCounter() {
-    $(".keyup50").on("keyup", function() {
+    $(".keyup50").on("keyup", function () {
         var content = $(this).val();
         var counter = $(this).next().find(".count");
 
         counter.html(content.length + "/50자");
-            if (content.length > 50){
-                $(this).val(content.substring(0, 50));
-                counter.html("(50/50자)");
-            }
+        if (content.length > 50) {
+            $(this).val(content.substring(0, 50));
+            counter.html("(50/50자)");
+        }
     });
-    $(".keyup100").on("keyup", function() {
+    $(".keyup100").on("keyup", function () {
         var content = $(this).val();
         var counter = $(this).next().find(".count");
 
         counter.html(content.length + "/100자");
-            if (content.length > 100){
-                $(this).val(content.substring(0, 100));
-                counter.html("(100/100자)");
-            }
+        if (content.length > 100) {
+            $(this).val(content.substring(0, 100));
+            counter.html("(100/100자)");
+        }
     });
 }
 
 //upload file name event
 function uploadFileName() {
-    $(".form-file").find("input[type='file']").change(function(e){
+    $(".form-file").find("input[type='file']").change(function (e) {
         var fileName = e.target.files[0].name;
         $(this).parents().siblings(".form-input-txt").val(fileName);
     });
