@@ -5,16 +5,16 @@
 }
 
 .nfw500 {
-    font-family: "Noto Sans Korean";
+    font-family: 'Noto Sans Korean';
     font-weight: 500;
 }
 
 .efw500 {
-    font-family: "GmarketSansMedium";
+    font-family: 'GmarketSansMedium';
 }
 
 .efw400 {
-    font-family: "GmarketSansLight";
+    font-family: 'GmarketSansLight';
 }
 
 .bg-white2 {
@@ -79,8 +79,8 @@
 }
 
 .mov-btn {
-    color: #fff;
-    opacity: 0.3;
+    color: #FFF;
+    opacity: .3;
 }
 
 .mov-btn.active {
@@ -168,8 +168,8 @@
 }
 
 .campaign-btn02 {
-    left: 33.6%;
-    bottom: 2.7%;
+    left: 33.60%;
+    bottom: 2.70%;
     width: 33.09%;
     height: 3%;
 }
@@ -220,7 +220,6 @@
 
 .week-area__md dl:nth-child(5) .paging-btn__ghost {
     margin-left: 2rem;
-    /* 21 09 01 네이블 수정 */
     width: 14.9rem;
     min-width: 11.35rem;
 }
@@ -261,14 +260,15 @@
 @media screen and (min-width: 1200px) {
     [class^="paging-btn__"] .label-arw {
         padding-right: 2.5rem;
-        -webkit-transition: padding-right 0.25s cubic-bezier(0.48, 0.65, 0.45, 1.48);
-        transition: padding-right 0.25s cubic-bezier(0.48, 0.65, 0.45, 1.48);
+        -webkit-transition: padding-right 0.25s cubic-bezier(.48, .65, .45, 1.48);
+        transition: padding-right 0.25s cubic-bezier(.48, .65, .45, 1.48);
     }
 
     [class^="paging-btn__"]:hover .label-arw {
         padding-right: 2.9rem;
     }
 }
+
 
 @media (max-width: 768.99px) {
     .week-schd-time-item .paging-btn__ghost {
@@ -279,17 +279,6 @@
         width: 18.5rem;
     }
 
-    /* 21 09 01 네이블 수정 삭제 */
-    /* .week-schd-time-item .cont.type2 .paging-btn__ghost {
-        width: 16.5rem;
-    }
-
-    .week-area__md dl:nth-child(5) .paging-btn__ghost {
-        width: 13.9rem;
-    } */
-    /* //21 09 01 네이블 수정 삭제 */
-
-    /* 21 09 01 네이블 수정  추가 */
     .week-schd-time-item .cont.type2 .paging-btn__ghost,
     .week-area__md dl:nth-child(5) .paging-btn__ghost {
         width: 17.5rem;
@@ -362,6 +351,13 @@
     .week-area__md dl:nth-child(2) .paging-btn__ghost .label-arw {
         background-position: top 0.8rem right;
     }
+
+    /* 21 09 03 네이블 수정 추가 */
+    .week-schd dt.type2 {
+        margin-top: 2rem;
+    }
+
+    /* //21 09 03 네이블 수정 추가 */
 }
 
 @media (max-width: 360.99px) {
@@ -369,7 +365,6 @@
         padding-right: 2.4rem;
     }
 
-    /* 21 09 01 네이블 수정 추가 */
     .week-area__md dl:nth-child(5) .paging-btn__ghost {
         line-height: 1.2;
     }
@@ -378,10 +373,10 @@
         background-position: top 0.8rem right 1rem;
     }
 
-    /* //21 09 01 네이블 수정 추가 */
 }
 
 @media (max-width: 320.99px) {
+
     .week-schd-time-item .paging-btn__ghost,
     .week-area__md dl:nth-child(2) .paging-btn__ghost {
         padding: 1rem 1rem 1rem;
@@ -389,16 +384,15 @@
     }
 
     [class^="paging-btn__"] .label-arw {
-        /* 21 09 01 네이블 수정 */
         background-position: top 1.2rem right;
     }
 
     .week-area__md dl:nth-child(2) .paging-btn__ghost .label-arw {
         background-position: top 2rem right;
     }
+
 }
 
-/* 21 09 01 네이블 수정 추가 */
 @media (max-width: 280.99px) {
     .week-area__md dl:nth-child(2) .paging-btn__ghost .label-arw {
         background-position: top 2.2rem right 1rem;
